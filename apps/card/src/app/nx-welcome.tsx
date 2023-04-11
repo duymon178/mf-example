@@ -1,10 +1,5 @@
-/*
- * * * * * * * * * * * * * * * * * * * * * * * * * * * *
- This is a starter component and can be deleted.
- * * * * * * * * * * * * * * * * * * * * * * * * * * * *
- Delete this file and get started with your project!
- * * * * * * * * * * * * * * * * * * * * * * * * * * * *
- */
+import { Button } from '@enterprise-example/shared/ui/button';
+
 export function NxWelcome({ title }: { title: string }) {
   return (
     <>
@@ -423,6 +418,8 @@ export function NxWelcome({ title }: { title: string }) {
             </h1>
           </div>
 
+          <Button>Shared button</Button>
+
           <div id="hero" className="rounded">
             <div className="text-container">
               <h2>
@@ -719,8 +716,8 @@ export function NxWelcome({ title }: { title: string }) {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  {" "}
-                  What is Nx Cloud?{" "}
+                  {' '}
+                  What is Nx Cloud?{' '}
                 </a>
               </div>
               <a
